@@ -4,7 +4,7 @@ import youtube from "../api/youtube";
 import VideoList from "./VideoList";
 import VideoDetail from "./VideoDetail";
 
-const KEY = "AIzaSyDyDYabU1ntu5kJsRPP2W9L8QbbZ4Az5rg";
+const KEY = "";
 
 class App extends React.Component {
   state = { videos: [], selectedVideo: null };
