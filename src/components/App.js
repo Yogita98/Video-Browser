@@ -5,7 +5,6 @@ import VideoList from "./VideoList";
 import VideoDetail from "./VideoDetail";
 
 const KEY = process.env.REACT_APP_YOUTUBE_API_KEY;
-console.log(KEY)
 
 class App extends React.Component {
   state = { videos: [], selectedVideo: null };
